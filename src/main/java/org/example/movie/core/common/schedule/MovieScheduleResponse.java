@@ -9,7 +9,9 @@ import java.util.Map;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class MovieScheduleResponse {
-  private String scheduleDate;
-  private List<TheatreDetailsResponse> theatreDetailsResponseList;
-  private Map<String, List<MovieScheduleTheatre>> movieScheduleMap;
+    private String scheduleDate;
+    private List<TheatreDetailsResponse> theatreDetailsResponseList;
+    private Map<String, List<MovieScheduleTheatre>> movieScheduleMap;
+    private TheatreDetails theatreDetails;
+    private MovieShow movieShow;
 }

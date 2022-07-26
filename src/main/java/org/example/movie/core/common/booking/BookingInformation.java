@@ -17,4 +17,6 @@ public class BookingInformation {
     private LocalDateTime movieDateTime;
     private String scheduleUniqueId;
     private int numberOfSeat;
+    private int totalNoOfSeat;
+    private PricingRequest pricingRequest;
 }

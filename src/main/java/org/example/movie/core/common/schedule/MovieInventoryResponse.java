@@ -8,5 +8,5 @@ import java.util.List;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class MovieInventoryResponse {
-  List<MovieDetailsResponse> movieDetailsResponseList;
+    List<MovieDetailsResponse> movieDetailsResponseList;
 }

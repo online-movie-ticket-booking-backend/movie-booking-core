@@ -9,6 +9,6 @@ import java.util.Map;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class MovieDetailsListResponse {
-  private List<MovieDetails> movieDetailsList;
-  private Map<String,MovieDetails> movieDetailsMap;
+    private List<MovieDetails> movieDetailsList;
+    private Map<String, MovieDetails> movieDetailsMap;
 }

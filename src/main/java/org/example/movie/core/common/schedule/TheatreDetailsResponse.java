@@ -9,7 +9,7 @@ import java.util.Map;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class TheatreDetailsResponse {
-  private String theatreName;
-  private List<String> showtime;
-  private Map<String, TheatreDetails> theatreDetailsMap;
+    private String theatreName;
+    private List<String> showtime;
+    private Map<String, TheatreDetails> theatreDetailsMap;
 }

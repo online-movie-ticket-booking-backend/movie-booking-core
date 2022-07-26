@@ -8,7 +8,9 @@ import java.util.List;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class MovieScheduleRequest {
-  private String movieCityMappingId;
-  private String scheduleDate;
-  private List<String> movieCityMappingIdList;
+    private String movieCityMappingId;
+    private String scheduleDate;
+    private String scheduleTime;
+    private List<String> movieCityMappingIdList;
+    private String movieScheduleUniqueId;
 }

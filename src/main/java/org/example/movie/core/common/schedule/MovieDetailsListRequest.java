@@ -8,5 +8,5 @@ import java.util.List;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class MovieDetailsListRequest {
-  private List<String> movieUniqueIdList;
+    private List<String> movieUniqueIdList;
 }

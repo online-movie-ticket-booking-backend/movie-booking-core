@@ -6,6 +6,6 @@ import lombok.experimental.Accessors;
 @Data(staticConstructor = "of")
 @Accessors(chain = true)
 public class MovieInventoryRequest {
-  private String cityId;
-  private String scheduleDate;
+    private String cityId;
+    private String scheduleDate;
 }
